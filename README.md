@@ -60,21 +60,5 @@ Open your browser and navigate to http://localhost:5173.
 Add some expenses using the form.
 Verify that the table updates with the new expense data.
 
-# Project Structure
 
-expense-tracker/
-├── backend/
-│   ├── app.py                # Flask application
-│   ├── expenses.db           # SQLite database (auto-created)
-│   ├── requirements.txt      # Backend dependencies
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── ExpenseForm.jsx
-│   │   │   ├── ExpenseTable.jsx
-│   │   ├── Home.jsx
-│   │   ├── main.jsx
-│   ├── .env                  # Environment variables (VITE_API_BASE_URL)
-│   ├── package.json          # Frontend dependencies
-│   ├── vite.config.js        # Vite configuration
 
